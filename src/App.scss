@@ -1,0 +1,54 @@
+$green: #068a34;
+$gray: #a2b0a7;
+$blue: #3e77c7;
+$red: #ba0404;
+
+
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  top: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.month{
+  font-size: 18px;
+  margin: 10px;
+  padding: 5px 15px;
+}
+.green{
+  background-color: $green;
+}
+.gray{
+  background-color: $gray;
+}
+.blue{
+  background-color: $blue;
+}
+.red{
+  background-color: $red;
+}
+.users-list{
+  position: absolute;
+  max-width: 200px;
+  right:20%;
+  top: 100px;
+  p{
+    font-size: 12px;
+    margin: 10px;
+  }
+}
+
